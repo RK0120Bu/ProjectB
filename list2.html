@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>噴火前からできる備え</title>
+    </head>
+        <body>
+            <h2>
+                噴火前からできる備え
+            </h2>
+        
+            <button onclick="openWin()">・ハザードマップ</button>
+            <script>
+                var myWindow;
+                function openWin() 
+                {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・ハザードマップ</p>");
+                myWindow.document.write("<p>過去の火山活動や噴火から、噴石や火砕流などの災害がどの範囲まで及ぶか、ある程度予測可能です。なので災害時に何処が安全な場所になるのかを確認するため、ハザードマップで危険な区域を確認しておきましょう。</p>");
+                }
+            </script>
+            <br><br>
+
+            <button onclick="openWin2()">・火山灰への備え</button>
+            <script>
+                var myWindow;
+                function openWin2()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・火山灰への備え</p>");
+              　myWindow.document.write("<p>ひとたび火山が噴火すると、その噴火は長期間続くことがあります。<br>特に火山灰は広範囲に飛散し、人体にもさまざまな害をもたらします。火山灰から自分の身を守るために、マスクやゴーグルなどの防災グッズを備えが必要です。</p>");
+                 }
+            </script>
+            <br><br>
+
+            <button onclick="openWin3()">・自治体の避難情報に注意</button>
+            <script>
+                var myWindow;
+                function openWin3()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+            　　myWindow.document.write("<p>・自治体の避難情報に注意</p>");
+              　myWindow.document.write("<p>活発な活動をする火山の多くでは、地元の自治体が火山が噴火した場合などに対応する避難計画を立てています。</p>");
+                 }
+            </script>
+            <br><br>
+
+            <button onclick="openWin4()">・噴火情報の確認</button>
+            <script>
+            　　　var myWindow;
+            　　　function openWin4()
+            　　 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・噴火情報の確認</p>");
+              　myWindow.document.write("<p>噴火が予想されている火山について気象庁のホームページで噴火予報、噴火警報、噴火速報などの情報を状況に応じて発表しています。<br>また、テレビやラジオなどでこれらの情報を知ることも出来ます。</p>");
+                 }
+            </script>
+            <br><br>
+
+        </body>
+</html>

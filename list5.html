@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>登山の際に気をつけること</title>
+    </head>
+        <body>
+            <h2>
+                登山の際に気をつけること
+            </h2>
+        
+            <button onclick="openWin()">・登山計画書</button>
+            <script>
+                var myWindow;
+                function openWin() 
+                {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・登山計画書</p>");
+                myWindow.document.write("<p>万が一の緊急捜索活動の円滑化のために登山届制度が導入されている火山については、登山計画書を提出しよう。</p>");
+                }
+            </script>
+            <br><br>
+
+            <button onclick="openWin2()">・登山中の噴火</button>
+            <script>
+                var myWindow;
+                function openWin2()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・登山中の噴火</p>");
+              　myWindow.document.write("<p>登山中であれば山小屋などに避難する<br>※近くに山小屋がなければ、岩陰などに身を隠し、できるだけ中身の詰まった大きな荷物で体を保護して噴石から身を守りましょう。</p>");
+                 }
+            </script>
+            <br><br>
+
+            <button onclick="openWin3()">・火口付近（登山中など）</button>
+            <script>
+                var myWindow;
+                function openWin3()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+            　　myWindow.document.write("<p>・火口付近（登山中など）</p>");
+              　myWindow.document.write("<p>火口から離れるように避難する。火砕流や泥流は谷筋に沿って流れるので、谷筋や窪地には近づかないようする。火口から多少離れた場所にも、たくさんの噴石が飛んでくるので、頑丈な建物や岩陰に隠れるようにしましょう。</p>");
+                 }
+            </script>
+            <br><br>
+
+        </body>
+</html>

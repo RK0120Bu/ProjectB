@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>噴火時にとる行動</title>
+    </head>
+        <body>
+            <h2>
+                噴火時にとる行動
+            </h2>
+        
+            <button onclick="openWin()">・避難するときの注意</button>
+            <script>
+                var myWindow;
+                function openWin() 
+                {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・避難するときの注意</p>");
+                myWindow.document.write("<p>避難するときは動きやすい長袖・長ズボンと軍手を着用し、頭を守るためにヘルメットなどをかぶりましょう。火山灰は皮膚を傷つけやすいので普段から履きなれた靴底が厚めの靴を履きましょう。<br>建物に避難する場合は、鉄筋コンクリート造の頑丈な建物に避難し、噴石の被害を避けるためになるべく一階で過ごすようにしましょう。</p>");
+                }
+            </script>
+            <br><br>
+
+            <button onclick="openWin2()">・降灰予測の確認</button>
+            <script>
+                var myWindow;
+                function openWin2()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+                myWindow.document.write("<p>・降灰予測の確認</p>");
+              　myWindow.document.write("<p>規模の大きい噴火の場合、噴火発生後20～30分程度で「降灰予報」が発表されます。<br>降灰予報では、噴火発生から6時間先までの降灰の範囲や量的な予想、降灰開始時刻などの情報が提供されます。降灰直前には灰が侵入しないようにドアや窓を閉めたりして対策しましょう。</p>");
+                 }
+            </script>
+            <br><br>
+
+            <button onclick="openWin3()">・降灰時の運転に注意</button>
+            <script>
+                var myWindow;
+                function openWin3()
+                 {
+                myWindow = window.open("", "myWindow", "width=750,height=500");
+            　　myWindow.document.write("<p>・降灰時の運転に注意</p>");
+              　myWindow.document.write("<p>降灰時は昼間でも薄暗くなり、見通しがわるくなってしまいます。なので、降灰時にはなるべく自動車の運転は控え、もし運転する場合には、ハザードランプを点灯させて周囲を注意しながら運転しましょう。</p>");
+                 }
+            </script>
+            <br><br>
+
+        </body>
+</html>
